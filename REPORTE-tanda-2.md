@@ -39,3 +39,12 @@ Aprobador: Miguel (E-leaders). Método: relectura antes de escribir, `_elementor
 - /terminos/ y /terminos-es/ publicadas por el equipo de Zafira el 28-sep 21:02; copia de texto en `revision/`. No se tocaron.
 - Home y /about/: las portadas y los pasos 01–05 de la home quedan como estaban, por instrucción de Miguel (prepara textos nuevos). En la portada de la home siguen "Evento Privado Exclusivo" y "privacidad absoluta".
 - /about/: la descripción SEO de AIOSEO y el `<meta name="description">` heredado todavía hablan de "event"/"destinations"; Miguel decide si cambia la de AIOSEO.
+
+## 29-sep · ronda W35/W36 y pie (preparado, esperando "sí" de Miguel)
+| Hora | Qué | Estado |
+|---|---|---|
+| 23:45 | Respaldo de las 13 páginas antes de C1 (`respaldo/2026-09-29/*.antes-C1.json`, webhook redactado) | Hecho |
+| 23:50 | C1 ajustado: fuera "Términos de Participación (candidatas)" (también el texto); 12 páginas listas, /caballeros/ aparte | Preparado, espera "sí" |
+| 23:55 | /caballeros/: C1 + C6 (casillas W21, texto bajo casillas, mensaje menor de 22, mensaje al enviar) + C7 (enlace en el paso 2). Probado en local con Chromium y red bloqueada: los dos formularios abren sus pasos; sin casillas no avanza; con 20 años muestra el mensaje de W21; nada se envió | Preparado, espera "sí" |
+| 23:58 | Home W35 (portada y pasos 01–05, cierre USD 13.400 y línea de candidatas) | Preparado, espera "sí" |
+| 23:58 | /about/ W36 (portada) | Preparado, espera "sí" |
