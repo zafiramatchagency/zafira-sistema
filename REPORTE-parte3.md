@@ -9,6 +9,10 @@ Aprobador: Miguel (E-leaders). Horas en hora de Colombia.
 | C18 | Blog | Los 8 artículos ya estaban en borrador (y /blog y las páginas "-pagina-antigua"). Comentarios y pingbacks cerrados en los 8 artículos | 21:23 | Parcial |
 | C18 | Ajustes → Comentarios | Cerrar comentarios y pingbacks por defecto: el conector no tiene esa opción | – | Pendiente (a mano, Miguel) |
 | C18 | Redirecciones 301 | 8 direcciones del blog → /caballeros/. No hay plugin de redirecciones; el conector de Hostinger se desconectó de la sesión | – | Pendiente (hPanel o reconectar Hostinger) |
+| C20 | /confirmacion/ | Botón "Comprobar si califico" (menú y menú móvil) ahora lleva a /caballeros/ | 21:28 | Hecho |
+| C20 | /checkout/ y /confirmacion/ | noindex y fuera del mapa del sitio en All in One SEO: el conector no puede cambiar AIOSEO | – | Pendiente (a mano, Miguel) |
+| C20 | Menú oculto de Astra | El único menú ("Cabecera Astra (vacío)") ya está vacío | – | Ya estaba hecho |
+| C21 | /confirmacion/ | Textos W13 exactos ES/EN (Lo que sigue, Su camino, Recuerde, si llegó sin pagar, Dudas, botón a /caballeros/). Script del nombre protegido para que no falle. Verificado idéntico; ya no aparece "Hemos recibido tu pago" | 21:28 | Hecho (falta captura) |
 
 ## Observaciones (no tocadas, regla 1)
 - Durante el trabajo hubo otras ediciones en paralelo: /registro-candidata/ guardada desde el editor a las 21:14 y /confirmacion/ a las 21:12; otra sesión con el mismo conector envió a la papelera las páginas 1162 y 1235. C17 se aplicó sobre la versión de las 21:14.
