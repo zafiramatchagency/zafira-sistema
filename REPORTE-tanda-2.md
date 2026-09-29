@@ -76,7 +76,50 @@ En las cuatro páginas, los seis campos coinciden entre sí. Quedan tres restos 
 - El extracto de /about/ dice "engineering-grade approach…". La cabecera no lo usa.
 - Siguen dentro del HTML las etiquetas `<meta name="description">` heredadas (ver Observaciones).
 
+## 29-sep · /caballeros/, limpieza, C19 y C2
+| Hora | Qué | Estado |
+|---|---|---|
+| 00:3x | "Sí" de Miguel a las 3 frases en tú y a la limpieza (solo quitar) | Recibido |
+| 00:3x | /caballeros/ preparado: C1 + C6 + C7, las 3 frases en tú ("Revisa el WhatsApp…", "Tu registro fue enviado… Te contactamos…", "Se abrió WhatsApp con tu registro: envíalo y te contactamos… escríbenos…"). Única etiqueta heredada de cabecera: `<title>Para Caballeros \| ZAFIRA</title>`, quitada (charset y viewport intactos). Prueba en Chromium local con red bloqueada: las dos ventanas abren sus pasos, sin casillas no avanza, con 20 años sale el mensaje de W21; nada se envió | Preparado |
+| 00:3x | /caballeros/ releída en vivo: sin cambios desde 28-sep 21:25:58 (igual a la copia previa) | Hecho |
+| 00:4x | /caballeros/ no se escribió. La página pesa 217 KB, de los cuales 68 KB son 7 fotos incrustadas en el código (base64: Melany y las 6 tarjetas difuminadas). El conector solo permite reescribir la página entera, y copiar a mano 68 KB de base64 tiene un riesgo alto de dañar alguna foto. Se consultan las opciones con Miguel | Espera decisión de Miguel |
+| 00:42 | /about/: nombre interno "The Experience" → "About Zafira" (la dirección sigue en /about/). Extracto vaciado ("engineering-grade approach…") | Hecho |
+| 00:4x | Etiquetas heredadas de cabecera en las demás páginas: lista mostrada a Miguel (ver abajo) | Espera "sí" de Miguel |
+| 00:4x | C19 (/checkout/): la línea la escribe el script (`planName`: "El Programa ($13,000 USD)" / "The Programme ($13,000 USD)"). La fila "Plan" está oculta hoy (`display:none`) pero el texto sigue en el código. El texto "Concepto" de W14 no está en el repo: se pide a Miguel | Espera texto W14 |
+| 00:4x | C2: el menú de Astra está vacío, pero ninguna página tiene desactivados la cabecera ni el pie de Astra (ajuste de página "Encabezado/Pie" por defecto). El CSS adicional los oculta (`#masthead, #colophon … display:none !important`), así que no se ven, pero siguen en el HTML. No se pudo ver el HTML en vivo desde este entorno | Avisado a Miguel |
+
+### Etiquetas heredadas de cabecera dentro del HTML (29-sep)
+| Página | Etiqueta | Dice |
+|---|---|---|
+| Home | title | ZAFIRA — Where Verification Meets Matrimony |
+| Home | description | ZAFIRA curated introductions, and a private Colombia event. Not a dating app. |
+| /about/ | title | The Experience \| ZAFIRA |
+| /about/ | description | Zafira is not simply an event. It is access to a different reality. Discover our elite lifestyle and destinations. |
+| /checkout/ | title | Evaluation &amp; Verification \| ZAFIRA |
+| /checkout/ | description | USD 400 evaluation and verification payment. Not a reservation and not part of the programme. |
+| /confirmacion/ | title | Payment Received \| ZAFIRA |
+| /confirmacion/ | description | Your Zafira evaluation payment has been received. Next steps of your process. |
+| /contact/ | title | Contact \| ZAFIRA |
+| /contact/ | description | Contact the Zafira team for confidential inquiries about our verified matrimonial consultancy services. |
+| /damas/ | title | Para Damas \| ZAFIRA |
+| /damas/ | description | Zafira conecta mujeres latinas verificadas con hombres americanos serios a través de un proceso seguro, acompañamiento real y un evento privado en Colombia. |
+| /privacidad/ | title | Privacy Policy \| ZAFIRA |
+| /privacidad/ | description | Zafira privacy policy, security protocols, terms of conduct, and refund policy. |
+| /privacidad-es/ | title | Política de Privacidad \| ZAFIRA |
+| /privacidad-es/ | description | Política de privacidad de Zafira: protocolos de seguridad, tratamiento de datos y términos de conducta. |
+| /proceso/ | title | The Process \| ZAFIRA |
+| /proceso/ | description | Discover the selective Zafira verification and event-matching process. Every connection begins with trust. |
+| /registro-candidata/ | title | Registro de Candidata \| ZAFIRA |
+| /registro-candidata/ | description | Completa tu registro como candidata verificada en Zafira. Proceso seguro, confidencial y acompañado. |
+| /cancelaciones-es/ | title | Política de Cancelaciones y Reembolsos \| ZAFIRA |
+| /cancelaciones/ | title | Cancellation & Refund Policy \| ZAFIRA |
+
+Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /terminos-es/ no se revisaron (no se tocan).
+
 ### Pendiente
-- /caballeros/: publicar C1 + C6 + C7 cuando Miguel responda sobre las 3 frases en usted. Después, caché, verificación, post_content y prueba de las dos ventanas sin enviar nada.
-- Después: C19, C2, C22.
+- /caballeros/: decisión de Miguel sobre cómo escribir la página (fotos incrustadas).
+- Limpieza de etiquetas heredadas: "sí" de Miguel a la lista.
+- C19: texto "Concepto" de W14.
+- C2: Miguel decide si desactiva la cabecera y el pie de Astra en los ajustes.
+- Después: C22.
 
