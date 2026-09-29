@@ -123,3 +123,18 @@ Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /t
 - C2: Miguel decide si desactiva la cabecera y el pie de Astra en los ajustes.
 - Después: C22.
 
+## 29-sep · /caballeros/ opción A, etiquetas heredadas y C19
+| Hora | Qué | Estado |
+|---|---|---|
+| 00:4x | Miguel elige la opción A para /caballeros/: él pega el HTML en Elementor. Archivo subido a la rama: `para-pegar/caballeros-para-pegar.html` (sin webhook). No se escribe /caballeros/ mientras Miguel pega | Espera "ya lo pegué" |
+| 00:4x | Revisión previa: ningún script usa `<title>` ni `<meta name="description">` (no hay `document.title` ni selectores de esas etiquetas en las 12 páginas) | Hecho |
+| 00:4x | Relectura en vivo de las 12 páginas: todas iguales a lo publicado por nosotros | Hecho |
+| 00:48–01:04 | Quitados `<title>` y `<meta name="description">` heredados en 11 páginas (home, /about/, /confirmacion/, /contact/, /damas/, /privacidad/, /privacidad-es/, /proceso/, /registro-candidata/, /cancelaciones/, /cancelaciones-es/; en las dos de cancelaciones solo había `<title>`). Charset y viewport intactos. Caché de Elementor borrada en cada una. Comparación byte a byte: 9 iguales; /cancelaciones/ y /cancelaciones-es/ revisadas con la respuesta del guardado (idénticas a lo preparado) | Hecho, verificado |
+| 01:0x | /checkout/: C19 preparado junto con la limpieza de su `<title>` y description, para una sola escritura. Fila "Plan" (oculta) → visible, con la línea "Concepto"/"Item" de W14 tal cual; el script escribe el mismo texto. Probado en local en EN y ES | Espera "sí" de Miguel |
+| — | C2: Miguel lo comprueba él en el código; no se tocan los ajustes del tema | A cargo de Miguel |
+
+### Pendiente
+- /caballeros/: cuando Miguel diga "ya lo pegué": caché, comparación byte a byte, texto plano y prueba de las ventanas.
+- /checkout/: "sí" de Miguel a C19 → una escritura (C19 + limpieza de cabecera), caché, verificación y texto plano.
+- Después: C22.
+
