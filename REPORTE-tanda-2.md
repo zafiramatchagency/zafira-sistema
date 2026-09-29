@@ -40,11 +40,43 @@ Aprobador: Miguel (E-leaders). Método: relectura antes de escribir, `_elementor
 - Home y /about/: las portadas y los pasos 01–05 de la home quedan como estaban, por instrucción de Miguel (prepara textos nuevos). En la portada de la home siguen "Evento Privado Exclusivo" y "privacidad absoluta".
 - /about/: la descripción SEO de AIOSEO y el `<meta name="description">` heredado todavía hablan de "event"/"destinations"; Miguel decide si cambia la de AIOSEO.
 
-## 29-sep · ronda W35/W36 y pie (preparado, esperando "sí" de Miguel)
+## 29-sep · ronda W35/W36 y pie
 | Hora | Qué | Estado |
 |---|---|---|
 | 23:4x | Respaldo de las 13 páginas antes de C1 (`respaldo/2026-09-29/*.antes-C1.json`, webhook redactado) | Hecho |
-| 00:0x (30-sep) | C1 ajustado: fuera "Términos de Participación (candidatas)" (también el texto); 12 páginas listas, /caballeros/ aparte | Preparado, espera "sí" |
-| 00:0x (30-sep) | /caballeros/: C1 + C6 (casillas W21, texto bajo casillas, mensaje menor de 22, mensaje al enviar) + C7 (enlace en el paso 2). Probado en local con Chromium y red bloqueada: los dos formularios abren sus pasos; sin casillas no avanza; con 20 años muestra el mensaje de W21; nada se envió | Preparado, espera "sí" |
-| 00:0x (30-sep) | Home W35 (portada y pasos 01–05, cierre USD 13.400 y línea de candidatas) | Preparado, espera "sí" |
-| 00:0x (30-sep) | /about/ W36 (portada) | Preparado, espera "sí" |
+| 00:0x (29-sep) | C1 ajustado: fuera "Términos de Participación (candidatas)" (también el texto); 12 páginas listas, /caballeros/ aparte | Preparado, espera "sí" |
+| 00:0x (29-sep) | /caballeros/: C1 + C6 (casillas W21, texto bajo casillas, mensaje menor de 22, mensaje al enviar) + C7 (enlace en el paso 2). Probado en local con Chromium y red bloqueada: los dos formularios abren sus pasos; sin casillas no avanza; con 20 años muestra el mensaje de W21; nada se envió | Preparado, espera "sí" |
+| 00:0x (29-sep) | Home W35 (portada y pasos 01–05, cierre USD 13.400 y línea de candidatas) | Preparado, espera "sí" |
+| 00:0x (29-sep) | /about/ W36 (portada) | Preparado, espera "sí" |
+| 00:1x (29-sep) | "Sí" de Miguel a 1–4, con ajustes en la ventana de candidatas de /caballeros/ (quitar el título "Su perfil no será público…", "contactarla" → "contactarte", revisar que no quede usted) | Recibido |
+| 00:12 | Home: C1 + W35 publicados en una escritura; caché de Elementor borrada; comparación exacta con lo preparado: igual | Hecho, verificado |
+| 00:14 | /about/: C1 + W36 publicados; fondo de Unsplash retirado, fondo liso con el mismo negro de la página (`var(--about-bg)`); caché borrada; comparación exacta: igual | Hecho, verificado |
+| 00:15 | /confirmacion/: C1 | Hecho, verificado |
+| 00:16 | /cancelaciones/ y /cancelaciones-es/: C1 | Hecho; revisadas a ojo (la herramienta devolvió el texto en línea y no se pudo comparar por archivo) |
+| 00:17 | /privacidad/ y /privacidad-es/: C1 (solo el pie; el contenido de privacidad no se tocó) | Hecho, verificado |
+| 00:19 | /contact/: C1 | Hecho, verificado |
+| 00:21 | /checkout/: C1 (solo el pie; el webhook, PayPal y el enlace "Términos y Condiciones" del formulario no se tocaron) | Hecho, verificado |
+| 00:23 | /damas/: C1 | Hecho, verificado |
+| 00:25 | /proceso/: C1 | Hecho, verificado |
+| 00:28 | /registro-candidata/: C1 | Hecho, verificado |
+| 00:30–00:35 | post_content (texto plano ES ——— EN, o un solo idioma en las páginas de un idioma) actualizado en las 12 páginas | Hecho |
+| 00:36 | Revisión SEO (cabecera que genera AIOSEO) de la home, /about/, /proceso/ y /damas/: title, description, og:title, og:description, twitter:title y twitter:description. Ninguna tiene "eventos", "experiencias" ni "latinoamericanas". Detalle abajo | Hecho |
+| 00:37 | /caballeros/: en la ventana de candidatas quedan 3 frases en usted, heredadas (no venían en W21). Se muestran a Miguel antes de publicar | Espera respuesta de Miguel |
+
+### Revisión SEO (29-sep, 00:36)
+| Página | title / og:title / twitter:title | description / og / twitter |
+|---|---|---|
+| Home | ZAFIRA \| Private Matchmaking Agency | "Private, invitation-only matrimonial consultancy for men in the United States and women in Colombia. Verification on both sides and consent in every case." |
+| /about/ | About Zafira \| ZAFIRA | "Zafira is a private introduction agency and matrimonial consultancy with its office in Bogotá, Colombia. Who we are, how we work and what Zafira is not." |
+| /proceso/ | The Process \| ZAFIRA | "Five steps, in this order: free application, preliminary review, USD 400 evaluation and verification, approval, USD 13,000 programme. No other charge." |
+| /damas/ | Para Damas \| ZAFIRA | "Registro gratuito y privado para mujeres en Colombia que buscan una relación seria con intención de matrimonio. Verificación de los dos lados. Tú decides." |
+
+En las cuatro páginas, los seis campos coinciden entre sí. Quedan tres restos viejos fuera de esos campos:
+- El nombre interno de la página /about/ en WordPress sigue siendo "The Experience". Aparece en las migas de pan del código (schema BreadcrumbList).
+- El extracto de /about/ dice "engineering-grade approach…". La cabecera no lo usa.
+- Siguen dentro del HTML las etiquetas `<meta name="description">` heredadas (ver Observaciones).
+
+### Pendiente
+- /caballeros/: publicar C1 + C6 + C7 cuando Miguel responda sobre las 3 frases en usted. Después, caché, verificación, post_content y prueba de las dos ventanas sin enviar nada.
+- Después: C19, C2, C22.
+
