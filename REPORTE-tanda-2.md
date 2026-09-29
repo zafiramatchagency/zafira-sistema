@@ -24,9 +24,18 @@ Aprobador: Miguel (E-leaders). Método: relectura antes de escribir, `_elementor
 | post_content | /proceso/ | Texto plano ES + EN | 23:10 | Hecho |
 | W34 | /damas/ | Portada (etiqueta, título, párrafo), introducción y 3 pilares de "¿Qué es Zafira?"; en "Tu Seguridad es Prioridad" solo la frase 2 (reglas c y d); frases 1 y 3 sin cambio. Sin botón nuevo en la portada | 23:13 | Hecho, verificado |
 | post_content | /damas/ | Texto plano ES + EN de la versión W34 | 23:14 | Hecho |
+| C5 | Home | Título de pasos → "Su camino, en cinco pasos" / "Your path, in five steps" (W15). Pasos 01–05 sin tocar (esperan textos nuevos) | 23:29 | Hecho, verificado |
+| C4 | Home | Bloque del evento → W32: etiqueta "CARTAGENA, COLOMBIA · SOLO POR INVITACIÓN", título "El encuentro de Cartagena", párrafo W32, línea "Verificación de ambos lados…", etiqueta inferior "ENCUENTRO PRIVADO · ACOMPAÑADO POR ZAFIRA" (antes: "El Evento Zafira" y etiquetas de evento). Portada sin tocar | 23:29 | Hecho, verificado |
+| post_content | Home | Texto plano ES + EN | 23:29 | Hecho |
+| C5 | /confirmacion/ | Etiqueta `planPill`: "Programa Zafira" → "Evaluación y verificación"; "Zafira Programme" → "Evaluation & Verification" | 23:30 | Hecho, verificado |
+| post_content | /confirmacion/ | Texto plano ES + EN (el anterior era el texto de antes de C20) | 23:31 | Hecho |
+| C13 / C14 | /about/ | Todo lo que había después de la portada se reemplazó por W10 (Quiénes somos, Misión y Visión, Cómo trabajamos, Lo que Zafira no es, Dónde con la fecha oficial y los enlaces a /caballeros/ y /damas/). Retirados: tarjetas de destinos, programa de Cartagena, fotos de cenas, filosofía y cierre viejo. Portada sin tocar (esperan textos nuevos) | 23:32 | Hecho, verificado |
+| post_content | /about/ | Texto plano ES + EN | 23:33 | Hecho |
 
 ## Observaciones
 - Descripción SEO de /proceso/ (AIOSEO): "Five stages from the initial application to the private event in Colombia…" — trae "event"; Miguel decide si la cambia.
 - Descripción SEO de /damas/: ya cambiada por Miguel al texto de W34 (23:04).
 - Dentro del HTML de las páginas hay etiquetas `<meta name="description">` heredadas (p. ej. /proceso/: "event-matching process"; /damas/: "mujeres latinas verificadas… evento privado"). No las usa Google (AIOSEO pone la suya en la cabecera), pero quedan en el código; se pueden limpiar en una pasada técnica.
 - /terminos/ y /terminos-es/ publicadas por el equipo de Zafira el 28-sep 21:02; copia de texto en `revision/`. No se tocaron.
+- Home y /about/: las portadas y los pasos 01–05 de la home quedan como estaban, por instrucción de Miguel (prepara textos nuevos). En la portada de la home siguen "Evento Privado Exclusivo" y "privacidad absoluta".
+- /about/: la descripción SEO de AIOSEO y el `<meta name="description">` heredado todavía hablan de "event"/"destinations"; Miguel decide si cambia la de AIOSEO.
