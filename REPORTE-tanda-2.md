@@ -138,3 +138,11 @@ Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /t
 - /checkout/: "sí" de Miguel a C19 → una escritura (C19 + limpieza de cabecera), caché, verificación y texto plano.
 - Después: C22.
 
+## 30-sep · retoma
+| Hora | Qué | Estado |
+|---|---|---|
+| 06:1x | Revisión sin escribir. /caballeros/ (120): aún no pegado; igual a la versión del 28-sep 21:25:58, distinto del archivo para pegar. /checkout/ (125): idéntico a lo publicado el 29-sep 00:32:20 (con C1); nadie lo cambió desde la pausa | Hecho |
+| 06:19 | Miguel cambia el orden: primero B (/checkout/), luego C22 en borrador; A espera su "ya lo pegué". No se toca la página 120 | Recibido |
+| 06:2x | B: C19 + quita de `<title>` y description de /checkout/ mostrados como antes → después (ES y EN), preparados sobre la versión viva actual | Espera "sí" de Miguel |
+| 06:2x | C22: borrador del bloque de datos del encuentro, solo con textos ya aprobados ("Por confirmar" donde falta el dato). No se escribió nada | Espera datos y páginas de Miguel |
+
