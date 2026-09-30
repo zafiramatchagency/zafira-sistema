@@ -1,4 +1,6 @@
-# Home (21) · error de `#counter` (propuesta, sin escribir)
+# Home (21) · error de `#counter`
+
+Estado: **aplicado el 30-sep a las 07:09:03** con el "sí" de Miguel. Verificado byte a byte; 0 errores en local.
 
 ## Qué pasa
 - El script final de la Home tiene un bloque "Counter" que busca `document.getElementById('counter')`. Ese elemento ya no existe en la página.

@@ -173,9 +173,15 @@ Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /t
 | 07:03 | Prueba local de la Home: la línea sale en ES y EN, sin desbordes en móvil (375 px). Único error: el de `#counter`, que ya existía | Hecho |
 | 07:04:23 | `post_content` de 21 actualizado con la línea C22 (ES ——— EN). También se corrigió un espacio que faltaba en el título del texto plano ("Una decisión seria merece…" / "A serious decision deserves…"). Comparado: idéntico | Hecho, verificado |
 | 07:0x | Análisis del error `#counter` (sin escribir): solo bloquea el parallax del fondo del encabezado; idioma, enlaces, aparición al hacer scroll y partículas funcionan. Arreglo de una línea en `propuestas/home-counter.md` | Espera decisión de Miguel |
+| 07:06 | Miguel da el "sí" al arreglo de `#counter` en la Home | Recibido |
+| 07:07:18 | Relectura de la Home (21) justo antes de guardar: igual a lo que guardamos a las 07:03:16 | Hecho |
+| 07:09:03 | Arreglo de una línea en la Home (`if(!el)return;` en el bloque "Counter"). Caché borrada. Comparación byte a byte: idéntico (30.154 caracteres). Sin cambios de texto, así que `post_content` no cambia | Hecho, verificado |
+| 07:09 | Prueba local ES/EN: idioma, línea C22 y enlaces del pie correctos; parallax funcionando; 0 errores de JavaScript | Hecho |
+| 07:1x | C3 revisado desde el conector, sin tocar nada: WPConsent 1.1.9 está **activo** en el sitio. El conector no da acceso a sus ajustes ni a sus textos (están en las opciones del plugin) ni puede abrir el sitio en vivo | Falta comprobación de Miguel |
 
 ### Pendiente
 - A (/caballeros/) cerrado. Falta que Miguel tome las capturas en vivo (ES, EN y móvil).
 - B (/checkout/) cerrado. Falta que Miguel tome las capturas en vivo.
 - C22: /proceso/ y Home hechos. /caballeros/, /about/ y /confirmacion/: cuando haya fechas reales (lista en `propuestas/C22-bloque-encuentro.md`).
-- Home, error `#counter`: arreglo de una línea propuesto en `propuestas/home-counter.md`; espera decisión de Miguel.
+- Home, error `#counter`: arreglado (07:09).
+- C3: WPConsent activo; falta que Miguel compruebe en vivo textos, enlace a privacidad y bloqueo previo de scripts.
