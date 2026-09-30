@@ -153,8 +153,15 @@ Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /t
 | 06:32:18 | `post_content` de 120 actualizado con texto plano (ES ——— EN), con el pie limpio igual que en las demás páginas. Comparado con lo preparado: idéntico. Sin fotos en base64 ni webhook. El HTML de Elementor sigue idéntico al archivo | Hecho, verificado |
 | 06:32:47 | Prueba de las dos ventanas en navegador local con la red bloqueada, **sin enviar formularios**. Ventana del caballero: abre en el paso 1 y pasa al paso 2; el enlace de privacidad del paso 2 (C7) lleva a /privacidad-es/; sin datos muestra "Faltan datos…". Ventana de candidata: sin casillas muestra "Faltan datos para poder contactarte." y sigue en el paso 1; con 20 años muestra el mensaje de menores de 22. En inglés, la casilla (C6) sale en inglés y enlaza a /privacidad/, y el pie sale en inglés (C1). Solo 2 peticiones bloqueadas (fuentes de Google y un archivo de wp-content); ninguna es de envío | Hecho |
 | 06:37 | B: relectura en vivo de /checkout/ (125), sin escribir. Sigue igual a lo publicado el 29-sep 00:32:20. Se muestra a Miguel el antes → después de C19 y de la quita del `<title>` y la description. Lo preparado solo cambia el HTML del widget, y la línea de C19 coincide palabra por palabra con W14 en ES y EN | Espera "sí" de Miguel |
+| 06:38 | Miguel da el "sí" a B | Recibido |
+| 06:40:01 | Relectura de /checkout/ (125) justo antes de guardar: sin cambios desde el 29-sep 00:32:20 | Hecho |
+| 06:41:42 | B escrito en una sola escritura: C19 (línea "Concepto"/"Item" de W14 visible en el resumen; el script escribe el mismo texto) y quitados `<title>` y `<meta name="description">`. Webhook de Make y enlace "Términos y Condiciones" del formulario sin cambios | Hecho |
+| 06:41 | Caché de Elementor borrada en 125. Comparación byte a byte con lo preparado: idéntico (20.157 caracteres) | Hecho, verificado |
+| 06:4x | Prueba local con la red bloqueada, sin enviar el formulario. EN: se ve "Item: Evaluation & Verification – USD 400…" y el enlace de términos lleva a /terminos/. ES: se ve "Concepto: Evaluación y verificación – USD 400…" y el enlace lleva a /terminos-es/. Al cambiar de idioma se cambia la línea. Único error: "paypal is not defined", esperado porque se bloqueó el script de PayPal | Hecho |
+| 06:42:43 | `post_content` de 125 actualizado con la línea Concepto/Item (ES ——— EN). Comparado: idéntico; sin webhook | Hecho, verificado |
+| 06:4x | C22 en propuesta, sin escribir: `propuestas/C22-bloque-encuentro.md` (páginas propuestas: home 21, /proceso/ 167, /caballeros/ 120) | Espera "sí" de Miguel |
 
 ### Pendiente
 - A (/caballeros/) cerrado. Falta que Miguel tome las capturas en vivo (ES, EN y móvil).
-- B (/checkout/): espera el "sí" de Miguel.
-- C22: espera las páginas y los datos de Miguel.
+- B (/checkout/) cerrado. Falta que Miguel tome las capturas en vivo.
+- C22: propuesta en `propuestas/C22-bloque-encuentro.md`; espera el "sí" de Miguel.
