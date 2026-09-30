@@ -160,8 +160,16 @@ Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /t
 | 06:4x | Prueba local con la red bloqueada, sin enviar el formulario. EN: se ve "Item: Evaluation & Verification – USD 400…" y el enlace de términos lleva a /terminos/. ES: se ve "Concepto: Evaluación y verificación – USD 400…" y el enlace lleva a /terminos-es/. Al cambiar de idioma se cambia la línea. Único error: "paypal is not defined", esperado porque se bloqueó el script de PayPal | Hecho |
 | 06:42:43 | `post_content` de 125 actualizado con la línea Concepto/Item (ES ——— EN). Comparado: idéntico; sin webhook | Hecho, verificado |
 | 06:4x | C22 en propuesta, sin escribir: `propuestas/C22-bloque-encuentro.md` (páginas propuestas: home 21, /proceso/ 167, /caballeros/ 120) | Espera "sí" de Miguel |
+| 06:47 | Miguel da el "sí" a C22 con ajustes: aprueba las etiquetas "Encuentro"/"Gathering" y "Fechas exactas"/"Exact dates"; /proceso/ tal cual; Home con una sola línea (espera "sí"); /caballeros/ no se toca ahora | Recibido |
+| 06:49:12 | Relectura de /proceso/ (167) justo antes de guardar: sin cambios desde el 29-sep 00:56:52 | Hecho |
+| 06:51:00 | C22 en /proceso/ (una escritura): portada → "Cartagena · Octubre–Noviembre 2026"; bloque de cinco filas entre marcas C22 en "Un programa privado y acompañado". Caché borrada. Comparación byte a byte: idéntico (31.019 caracteres) | Hecho, verificado |
+| 06:51 | Prueba local de /proceso/ (red bloqueada): ES y EN correctos, sin errores; en móvil (375 px) sin desbordes | Hecho |
+| 06:52:08 | `post_content` de 167 actualizado con el bloque y la portada nueva (ES ——— EN). También se corrigieron dos espacios que faltaban en el título del texto plano ("Bienvenido al proceso Zafira" / "Welcome to the Zafira process"). Comparado: idéntico | Hecho, verificado |
+| 06:5x | Home (21): relectura (sin cambios desde el 29-sep 00:58:51) y línea C22 preparada y probada en local ES/EN. No se escribió | Espera "sí" de Miguel |
+| 06:5x | Lista para el día de las fechas reales anotada en `propuestas/C22-bloque-encuentro.md` | Hecho |
 
 ### Pendiente
 - A (/caballeros/) cerrado. Falta que Miguel tome las capturas en vivo (ES, EN y móvil).
 - B (/checkout/) cerrado. Falta que Miguel tome las capturas en vivo.
-- C22: propuesta en `propuestas/C22-bloque-encuentro.md`; espera el "sí" de Miguel.
+- C22: /proceso/ hecho. Home: espera el "sí" de Miguel. /caballeros/, /about/ y /confirmacion/: cuando haya fechas reales (lista en `propuestas/C22-bloque-encuentro.md`).
+- Nota: la Home da un error de JavaScript que ya existía (busca el contador `#counter`, que ya no está en la página). No afecta al contenido visible; no se toca sin OK.

@@ -1,6 +1,7 @@
 # C22 · Datos del encuentro de Cartagena (propuesta, sin escribir)
 
-Estado: **propuesta, espera el "sí" de Miguel**. No se ha escrito nada en ninguna página.
+Estado (30-sep, 06:5x): **/proceso/ (167) publicado** con el bloque de cinco filas. **Home (21)**: una línea, espera el "sí" de Miguel. **/caballeros/ (120)**: no se toca ahora; se actualiza cuando haya fechas reales (ver la lista del final).
+Etiquetas nuevas aprobadas por Miguel: "Encuentro"/"Gathering" y "Fechas exactas"/"Exact dates".
 Regla: solo se usa lo ya publicado, "Cartagena · Octubre–Noviembre 2026". Todo lo demás va como "Por confirmar" / "To be confirmed". No se inventa ningún dato.
 
 ## Bloque (igual en las 3 páginas)
@@ -59,3 +60,23 @@ Se reutiliza el bloque `.ev` que ya existe: se cambia la fila "Fecha" y se añad
 ## Fuera del bloque
 - /about/ (27) y /confirmacion/ (132) tienen una sola frase: "Octubre o noviembre de 2026. Fechas exactas, sede y cupos por confirmar…". No llevan el bloque.
 - Cuando haya fechas, esa frase también se cambia (una por página).
+
+## Decisión de Miguel (30-sep)
+- /proceso/ (167): bloque de cinco filas y portada con "Cartagena · Octubre–Noviembre 2026". **Publicado a las 06:51.**
+- Home (21): no lleva las cinco filas. Lleva una sola línea entre las marcas C22, debajo de "Verificación de ambos lados…":
+  - ES: "Encuentro · Cartagena · Octubre–Noviembre 2026 · Fechas, sede y cupos por confirmar"
+  - EN: "Gathering · Cartagena · October–November 2026 · Dates, venue and places to be confirmed"
+- /caballeros/ (120): no se toca ahora.
+
+## Lista para el día en que haya fechas reales (una sola pasada)
+Solo con los datos que confirme Zafira: fechas exactas, sede, cupos y cierre de solicitudes.
+
+| Página (ID) | Qué se cambia | Cómo |
+|---|---|---|
+| /proceso/ (167) | Las filas "Fechas exactas", "Sede", "Cupos" y "Cierre de solicitudes" del bloque C22 | Escritura normal, entre las marcas C22 |
+| Home (21) | La línea C22 ("… · Fechas, sede y cupos por confirmar") | Escritura normal, entre las marcas C22 |
+| /caballeros/ (120) | Las filas del bloque `.ev` ("Fecha", "Sede", "Cupos", "Cierre de solicitudes"), en un solo cambio con la frase del botón final: "El encuentro de Cartagena está previsto para octubre o noviembre de 2026. Las fechas exactas y el cierre de solicitudes se confirman antes de abrir los cupos." / "The Cartagena gathering is planned for October or November 2026. Exact dates and the application deadline are confirmed before places open." | Archivo nuevo en `para-pegar/` y Miguel lo pega en Elementor (la página pesa 206 KB) |
+| /about/ (27) | "Octubre o noviembre de 2026. Fechas exactas, sede y cupos por confirmar; se confirman antes de abrir los cupos." / "October or November 2026. Exact dates, venue and places to be confirmed before places open." | Escritura normal |
+| /confirmacion/ (132) | Punto 5: "Cartagena: Octubre o noviembre de 2026. Fechas exactas, sede y cupos por confirmar; se confirman antes de abrir los cupos." (y su versión en inglés) | Escritura normal |
+
+Los títulos y etiquetas que solo dicen el mes siguen siendo ciertos cuando haya fechas, y no hace falta cambiarlos: "Cartagena · Octubre–Noviembre 2026" en /caballeros/ y en la portada de /proceso/, y "Cartagena, octubre o noviembre de 2026" en /caballeros/.
