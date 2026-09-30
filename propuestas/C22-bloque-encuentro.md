@@ -1,6 +1,6 @@
 # C22 · Datos del encuentro de Cartagena (propuesta, sin escribir)
 
-Estado (30-sep, 06:5x): **/proceso/ (167) publicado** con el bloque de cinco filas. **Home (21)**: una línea, espera el "sí" de Miguel. **/caballeros/ (120)**: no se toca ahora; se actualiza cuando haya fechas reales (ver la lista del final).
+Estado (30-sep, 06:5x): **/proceso/ (167) publicado** con el bloque de cinco filas. **Home (21)**: una línea, publicada a las 07:03. **/caballeros/ (120)**: no se toca ahora; se actualiza cuando haya fechas reales (ver la lista del final).
 Etiquetas nuevas aprobadas por Miguel: "Encuentro"/"Gathering" y "Fechas exactas"/"Exact dates".
 Regla: solo se usa lo ya publicado, "Cartagena · Octubre–Noviembre 2026". Todo lo demás va como "Por confirmar" / "To be confirmed". No se inventa ningún dato.
 

@@ -167,9 +167,15 @@ Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /t
 | 06:52:08 | `post_content` de 167 actualizado con el bloque y la portada nueva (ES ——— EN). También se corrigieron dos espacios que faltaban en el título del texto plano ("Bienvenido al proceso Zafira" / "Welcome to the Zafira process"). Comparado: idéntico | Hecho, verificado |
 | 06:5x | Home (21): relectura (sin cambios desde el 29-sep 00:58:51) y línea C22 preparada y probada en local ES/EN. No se escribió | Espera "sí" de Miguel |
 | 06:5x | Lista para el día de las fechas reales anotada en `propuestas/C22-bloque-encuentro.md` | Hecho |
+| 07:00 | Miguel da el "sí" a la línea C22 de la Home | Recibido |
+| 07:01:26 | Relectura de la Home (21) justo antes de guardar: sin cambios desde el 29-sep 00:58:51 | Hecho |
+| 07:03:16 | C22 en la Home (una escritura): línea entre marcas C22 debajo de "Verificación de ambos lados…". Caché borrada. Comparación byte a byte: idéntico (30.140 caracteres) | Hecho, verificado |
+| 07:03 | Prueba local de la Home: la línea sale en ES y EN, sin desbordes en móvil (375 px). Único error: el de `#counter`, que ya existía | Hecho |
+| 07:04:23 | `post_content` de 21 actualizado con la línea C22 (ES ——— EN). También se corrigió un espacio que faltaba en el título del texto plano ("Una decisión seria merece…" / "A serious decision deserves…"). Comparado: idéntico | Hecho, verificado |
+| 07:0x | Análisis del error `#counter` (sin escribir): solo bloquea el parallax del fondo del encabezado; idioma, enlaces, aparición al hacer scroll y partículas funcionan. Arreglo de una línea en `propuestas/home-counter.md` | Espera decisión de Miguel |
 
 ### Pendiente
 - A (/caballeros/) cerrado. Falta que Miguel tome las capturas en vivo (ES, EN y móvil).
 - B (/checkout/) cerrado. Falta que Miguel tome las capturas en vivo.
-- C22: /proceso/ hecho. Home: espera el "sí" de Miguel. /caballeros/, /about/ y /confirmacion/: cuando haya fechas reales (lista en `propuestas/C22-bloque-encuentro.md`).
-- Nota: la Home da un error de JavaScript que ya existía (busca el contador `#counter`, que ya no está en la página). No afecta al contenido visible; no se toca sin OK.
+- C22: /proceso/ y Home hechos. /caballeros/, /about/ y /confirmacion/: cuando haya fechas reales (lista en `propuestas/C22-bloque-encuentro.md`).
+- Home, error `#counter`: arreglo de una línea propuesto en `propuestas/home-counter.md`; espera decisión de Miguel.
