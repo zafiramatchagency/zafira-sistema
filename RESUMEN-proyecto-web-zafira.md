@@ -3,20 +3,25 @@
 Sitio: zafiramatchagency.com (WordPress + Elementor, tema Astra).
 Aprueba: Miguel (E-leaders). Planea: el sistema de pauta de Zafira. Ejecuta: Claude, por el conector de WordPress.
 Repo de trabajo: `zafiramatchagency/zafira-sistema`, rama `claude/focused-volta-2k142j`.
-Periodo: 28 al 30 de septiembre de 2026 (hora de Colombia, UTC−5). Actualizado el 30-sep a las 07:3x.
+Periodo: 28 al 30 de septiembre de 2026 (hora de Colombia, UTC−5). Estado al 30-sep, 07:4x.
 
 ---
 
 ## 1. En pocas líneas
 
-- Se aplicó casi toda la guía de cambios en las 12 páginas públicas. Estas son la home, /about/, /proceso/, /damas/, /registro-candidata/, /contact/, /checkout/, /confirmacion/, /privacidad/, /privacidad-es/, /cancelaciones/ y /cancelaciones-es/.
-- Se publicó el pie legal nuevo (C1) en esas 12 páginas.
-- Se quitaron las etiquetas de cabecera heredadas en 11 de ellas.
-- Se actualizó el texto de respaldo de WordPress (`post_content`) de las 12.
-- Quedan tres cosas en curso:
-  - **/caballeros/**: Miguel pega el HTML final en Elementor y después se verifica.
-  - **C19** en /checkout/: preparado, espera el "sí" de Miguel.
-  - **C22**: pendiente.
+- La guía de cambios está aplicada en las 13 páginas públicas: la home, /about/, /proceso/, /damas/, /caballeros/, /registro-candidata/, /contact/, /checkout/, /confirmacion/, /privacidad/, /privacidad-es/, /cancelaciones/ y /cancelaciones-es/.
+- En las 13 están publicados el pie legal nuevo (C1), la quita de las etiquetas de cabecera heredadas y el texto de respaldo de WordPress (`post_content`).
+- Hecho el 30-sep:
+  - **/caballeros/**: Miguel pegó el HTML final (C1, C6, C7) y está verificado byte a byte.
+  - **C19** en /checkout/: publicado y verificado.
+  - **C22**: publicado en /proceso/ y en la Home.
+  - **C3**: banner de cookies configurado por Miguel en WPConsent y verificado en vivo por Gisela.
+  - **Home**: arreglado el error de `#counter`.
+- Queda abierto:
+  - C22 en /caballeros/, /about/ y /confirmacion/, cuando haya fechas reales;
+  - C8 (Dirección) y C23 (logo y colores);
+  - la línea bajo el botón de pago, que espera los Términos, y el nombre del cobro en PayPal;
+  - las capturas en vivo.
 
 ---
 
@@ -95,7 +100,7 @@ Periodo: 28 al 30 de septiembre de 2026 (hora de Colombia, UTC−5). Actualizado
 
 | Código | Qué es | Página | Estado |
 |---|---|---|---|
-| C1 | Pie legal nuevo (W19), sin "Términos de Participación" | 12 páginas | ✅ Hecho y verificado. /caballeros/ va en el archivo para pegar |
+| C1 | Pie legal nuevo (W19), sin "Términos de Participación" | 12 páginas | ✅ Hecho y verificado en las 13 (en /caballeros/ con el pegado de Miguel del 30-sep) |
 | C2 | Cabecera y pie de Astra en el código | Todas | Los oculta el CSS. Miguel lo comprueba; no se tocan los ajustes del tema |
 | C3 | Banner de cookies (WPConsent) | Todo el sitio | ✅ Hecho por Miguel a mano en WPConsent y verificado en vivo por Gisela (30-sep, antes de las 07:37). Ver sección 5 |
 | C4 | Bloque del encuentro de Cartagena (W32) | Home | ✅ Hecho |
@@ -124,7 +129,7 @@ Periodo: 28 al 30 de septiembre de 2026 (hora de Colombia, UTC−5). Actualizado
 | W37 (SEO en All in One SEO, hecho por Miguel) | Home, /about/, /proceso/ | ✅ Revisado: sin "eventos", "experiencias" ni "latinoamericanas" |
 | Quitar `<title>` y description heredados | 12 páginas | ✅ Hecho y verificado (/checkout/ el 30-sep junto con C19; /caballeros/ en el pegado de Miguel) |
 | Nombre interno "The Experience" → "About Zafira"; extracto vaciado | /about/ | ✅ Hecho (la dirección sigue siendo /about/) |
-| `post_content` con texto plano ES/EN | 12 páginas | ✅ Hecho. /caballeros/ va después de que Miguel pegue |
+| `post_content` con texto plano ES/EN | 12 páginas | ✅ Hecho en las 13 (/caballeros/ el 30-sep a las 06:32) |
 
 ---
 
@@ -168,22 +173,21 @@ Periodo: 28 al 30 de septiembre de 2026 (hora de Colombia, UTC−5). Actualizado
 
 ---
 
-## 6. Próximos pasos, en orden
+## 6. Próximos pasos
 
-1. **/caballeros/.** Miguel pega `para-pegar/caballeros-para-pegar.html` en el widget HTML de Elementor y avisa "ya lo pegué". El archivo incluye:
-   - C1, C6 y C7;
-   - las tres frases pasadas a tú;
-   - la quita del `<title>` heredado.
+1. **Capturas en vivo** (español, inglés y móvil) de /caballeros/, /checkout/, /proceso/ y la Home. Las toma Miguel, porque este entorno no abre el sitio.
+2. **C2:** Miguel confirma en vivo que la cabecera y el pie del tema no se ven.
+3. **El día que haya fechas reales del encuentro** (las da Zafira), en una sola pasada:
+   - /proceso/ y Home: se cambian las marcas C22;
+   - /about/ y /confirmacion/: se cambia su frase de fechas;
+   - /caballeros/: archivo nuevo en `para-pegar/` para que lo pegue Miguel.
 
-   Después: borrar la caché, comparar byte a byte con el archivo, actualizar el texto plano y probar las dos ventanas sin enviar nada.
-2. **/checkout/.** Con el "sí" de Miguel a C19, una sola escritura con C19 y la quita del `<title>` y la description. Después: caché, verificación y texto plano.
-3. **C22.**
+   La lista completa está en `propuestas/C22-bloque-encuentro.md`. Cada escritura necesita el "sí" de Miguel.
 4. **En espera de terceros:**
    - C8: decisión de Dirección;
-   - C23: logo y colores;
-   - la línea bajo el botón de pago, que espera los Términos;
+   - Términos y Condiciones, y la línea bajo el botón de pago de /checkout/: Dirección;
+   - C23: logo y colores, de Zafira;
    - el nombre del cobro en PayPal, que lo cambia Zafira.
-5. **Capturas en vivo** (español, inglés y móvil). Las toma Miguel, porque este entorno no abre el sitio.
 
 ---
 
