@@ -146,3 +146,14 @@ Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /t
 | 06:2x | B: C19 + quita de `<title>` y description de /checkout/ mostrados como antes → después (ES y EN), preparados sobre la versión viva actual | Espera "sí" de Miguel |
 | 06:2x | C22: borrador del bloque de datos del encuentro, solo con textos ya aprobados ("Por confirmar" donde falta el dato). No se escribió nada | Espera datos y páginas de Miguel |
 
+| 06:27:54 | Miguel pega `para-pegar/caballeros-para-pegar.html` en Elementor y publica /caballeros/ (120). Avisa "ya lo pegué" | Hecho por Miguel |
+| 06:2x | Comparación byte a byte del HTML en vivo con `para-pegar/caballeros-para-pegar.html`: idénticos (206.003 caracteres) | Hecho, verificado |
+| 06:2x | Caché de Elementor borrada en 120 | Hecho |
+| 06:30 | Relectura justo antes de guardar: sin cambios desde las 06:27:54 | Hecho |
+| 06:32:18 | `post_content` de 120 actualizado con texto plano (ES ——— EN), con el pie limpio igual que en las demás páginas. Comparado con lo preparado: idéntico. Sin fotos en base64 ni webhook. El HTML de Elementor sigue idéntico al archivo | Hecho, verificado |
+| 06:32:47 | Prueba de las dos ventanas en navegador local con la red bloqueada, **sin enviar formularios**. Ventana del caballero: abre en el paso 1 y pasa al paso 2; el enlace de privacidad del paso 2 (C7) lleva a /privacidad-es/; sin datos muestra "Faltan datos…". Ventana de candidata: sin casillas muestra "Faltan datos para poder contactarte." y sigue en el paso 1; con 20 años muestra el mensaje de menores de 22. En inglés, la casilla (C6) sale en inglés y enlaza a /privacidad/, y el pie sale en inglés (C1). Solo 2 peticiones bloqueadas (fuentes de Google y un archivo de wp-content); ninguna es de envío | Hecho |
+
+### Pendiente
+- A (/caballeros/) cerrado. Falta que Miguel tome las capturas en vivo (ES, EN y móvil).
+- B (/checkout/): espera el "sí" de Miguel.
+- C22: espera las páginas y los datos de Miguel.
