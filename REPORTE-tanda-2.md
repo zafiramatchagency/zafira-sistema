@@ -178,10 +178,12 @@ Ninguna página tiene keywords, og: ni twitter: dentro del HTML. /terminos/ y /t
 | 07:09:03 | Arreglo de una línea en la Home (`if(!el)return;` en el bloque "Counter"). Caché borrada. Comparación byte a byte: idéntico (30.154 caracteres). Sin cambios de texto, así que `post_content` no cambia | Hecho, verificado |
 | 07:09 | Prueba local ES/EN: idioma, línea C22 y enlaces del pie correctos; parallax funcionando; 0 errores de JavaScript | Hecho |
 | 07:1x | C3 revisado desde el conector, sin tocar nada: WPConsent 1.1.9 está **activo** en el sitio. El conector no da acceso a sus ajustes ni a sus textos (están en las opciones del plugin) ni puede abrir el sitio en vivo | Falta comprobación de Miguel |
+| antes de 07:37 | **C3 hecho por Miguel a mano en WPConsent** y verificado en vivo por Gisela: Google Consent Mode apagado (Script Blocking prendido, Default Allow apagado); antes de aceptar no sale ninguna llamada a Google Analytics (WPConsent retiene gtag de Site Kit y order-attribution de WooCommerce); el botón de PayPal de /checkout/ sigue cargando. Banner con enlaces "Privacy Policy" → /privacidad/ y "Política de privacidad" → /privacidad-es/, los dos funcionan. Texto en "usted". Sin shortcode `[wpconsent_cookie_policy]` en /privacidad/. "Sus opciones de privacidad" no va en el pie por ahora (ya hay botón flotante de preferencias) | Hecho |
+| 07:37 | Anotado en el reporte y en el resumen. Detalle menor, sin tocar: "Sign in with Google" de Site Kit carga accounts.google.com antes del consentimiento. No se escribió nada en el sitio | Anotado |
 
 ### Pendiente
 - A (/caballeros/) cerrado. Falta que Miguel tome las capturas en vivo (ES, EN y móvil).
 - B (/checkout/) cerrado. Falta que Miguel tome las capturas en vivo.
 - C22: /proceso/ y Home hechos. /caballeros/, /about/ y /confirmacion/: cuando haya fechas reales (lista en `propuestas/C22-bloque-encuentro.md`).
 - Home, error `#counter`: arreglado (07:09).
-- C3: WPConsent activo; falta que Miguel compruebe en vivo textos, enlace a privacidad y bloqueo previo de scripts.
+- C3: hecho. Detalle menor anotado: "Sign in with Google" de Site Kit carga accounts.google.com antes del consentimiento (no se toca).

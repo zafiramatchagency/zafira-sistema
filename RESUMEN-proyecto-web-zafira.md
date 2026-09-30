@@ -3,7 +3,7 @@
 Sitio: zafiramatchagency.com (WordPress + Elementor, tema Astra).
 Aprueba: Miguel (E-leaders). Planea: el sistema de pauta de Zafira. Ejecuta: Claude, por el conector de WordPress.
 Repo de trabajo: `zafiramatchagency/zafira-sistema`, rama `claude/focused-volta-2k142j`.
-Periodo: 28 al 29 de septiembre de 2026 (hora de Colombia, UTC−5). Estado a la pausa del 29-sep.
+Periodo: 28 al 30 de septiembre de 2026 (hora de Colombia, UTC−5). Actualizado el 30-sep a las 07:3x.
 
 ---
 
@@ -97,21 +97,21 @@ Periodo: 28 al 29 de septiembre de 2026 (hora de Colombia, UTC−5). Estado a la
 |---|---|---|---|
 | C1 | Pie legal nuevo (W19), sin "Términos de Participación" | 12 páginas | ✅ Hecho y verificado. /caballeros/ va en el archivo para pegar |
 | C2 | Cabecera y pie de Astra en el código | Todas | Los oculta el CSS. Miguel lo comprueba; no se tocan los ajustes del tema |
-| C3 | Banner de cookies (WPConsent ya instalado) | — | ⏸ Espera el visto bueno de Miguel |
+| C3 | Banner de cookies (WPConsent) | Todo el sitio | ✅ Hecho por Miguel a mano en WPConsent y verificado en vivo por Gisela (30-sep, antes de las 07:37). Ver sección 5 |
 | C4 | Bloque del encuentro de Cartagena (W32) | Home | ✅ Hecho |
 | C5 | Título de pasos (W15) y etiqueta `planPill` | Home, /confirmacion/ | ✅ Hecho |
-| C6 | Casillas y textos de W21 en la ventana de candidatas | /caballeros/ | ⏳ En el archivo para pegar |
-| C7 | Enlace a privacidad en el paso 2 | /caballeros/ | ⏳ En el archivo para pegar |
+| C6 | Casillas y textos de W21 en la ventana de candidatas | /caballeros/ | ✅ Hecho (pegado por Miguel el 30-sep 06:27:54, verificado) |
+| C7 | Enlace a privacidad en el paso 2 | /caballeros/ | ✅ Hecho (pegado por Miguel el 30-sep 06:27:54, verificado) |
 | C8 | "Perfil reservado" / perfiles | /caballeros/ | ⏸ Espera la decisión de Dirección |
 | C9–C12 | Portada W30, 5 pasos, itinerario W09 (plan B), fuera fotos y segundo bloque | /proceso/ | ✅ Hecho |
 | C13–C14 | Contenido W10 y fuera destinos, fotos y filosofía | /about/ | ✅ Hecho |
 | C15–C16 | "Lo que te prometemos" (W07) y "Tu proceso" (W29) | /damas/ | ✅ Hecho |
 | C17 | Pantalla final del registro (W01) | /registro-candidata/ | ✅ Hecho |
 | C18 | Blog en borrador, comentarios cerrados, 9 redirecciones 301 | Blog | ✅ Hecho (redirecciones y ajustes por Miguel) |
-| C19 | Línea "Concepto" / "Item" de W14 en el resumen, fila visible | /checkout/ | ⏳ Preparado y probado en local, espera el "sí" |
+| C19 | Línea "Concepto" / "Item" de W14 en el resumen, fila visible | /checkout/ | ✅ Hecho (30-sep 06:41:42, verificado) |
 | C20 | Botón a /caballeros/; noindex y fuera del sitemap | /confirmacion/, /checkout/ | ✅ Hecho (noindex por Miguel) |
 | C21 | Textos W13 de la confirmación del pago | /confirmacion/ | ✅ Hecho |
-| C22 | Bloque de datos del encuentro | 3 páginas | ⏳ Pendiente |
+| C22 | Datos del encuentro | /proceso/, Home | ✅ /proceso/ (06:51) y Home (07:03). /caballeros/, /about/ y /confirmacion/ se actualizan cuando haya fechas reales (`propuestas/C22-bloque-encuentro.md`) |
 | C23 | Logo y colores | — | ⏸ Espera material |
 
 **Otros cambios**
@@ -122,7 +122,7 @@ Periodo: 28 al 29 de septiembre de 2026 (hora de Colombia, UTC−5). Estado a la
 | W35: portada y pasos 01–05 | Home | ✅ Hecho |
 | W36: portada, con fondo liso en lugar de la foto de Unsplash | /about/ | ✅ Hecho |
 | W37 (SEO en All in One SEO, hecho por Miguel) | Home, /about/, /proceso/ | ✅ Revisado: sin "eventos", "experiencias" ni "latinoamericanas" |
-| Quitar `<title>` y description heredados | 11 páginas | ✅ Hecho y verificado. /checkout/ va junto con C19 |
+| Quitar `<title>` y description heredados | 12 páginas | ✅ Hecho y verificado (/checkout/ el 30-sep junto con C19; /caballeros/ en el pegado de Miguel) |
 | Nombre interno "The Experience" → "About Zafira"; extracto vaciado | /about/ | ✅ Hecho (la dirección sigue siendo /about/) |
 | `post_content` con texto plano ES/EN | 12 páginas | ✅ Hecho. /caballeros/ va después de que Miguel pegue |
 
@@ -154,6 +154,18 @@ Periodo: 28 al 29 de septiembre de 2026 (hora de Colombia, UTC−5). Estado a la
 - Miguel paró el trabajo.
 - No se escribe /caballeros/ ni /checkout/ hasta el día siguiente.
 
+**30-sep**
+- 06:27:54: Miguel pega /caballeros/ (C1, C6, C7). Verificado byte a byte; texto plano y prueba de ventanas a las 06:32.
+- 06:41: /checkout/: C19 y quita de `<title>` y description.
+- 06:51 y 07:03: C22 en /proceso/ y en la Home.
+- 07:09: Home: arreglo del error de `#counter` (el parallax del encabezado vuelve a funcionar).
+- Antes de las 07:37: **C3 hecho por Miguel en WPConsent**, verificado en vivo por Gisela:
+  - Google Consent Mode apagado; Script Blocking prendido; Default Allow apagado. Antes de aceptar no sale ninguna llamada a Google Analytics: WPConsent retiene gtag de Site Kit y order-attribution de WooCommerce. El botón de PayPal de /checkout/ sigue cargando.
+  - Mensaje del banner con enlaces: "Privacy Policy" → /privacidad/ y "Política de privacidad" → /privacidad-es/. Los dos funcionan.
+  - El texto del banner se queda en "usted". No se puso el shortcode `[wpconsent_cookie_policy]` en /privacidad/ (el contenido de privacidad no se toca).
+  - "Sus opciones de privacidad" no se agrega al pie por ahora: ya existe el botón flotante de preferencias.
+  - Detalle menor anotado, **sin tocar**: "Sign in with Google" de Site Kit sigue cargando accounts.google.com antes del consentimiento.
+
 ---
 
 ## 6. Próximos pasos, en orden
@@ -167,7 +179,6 @@ Periodo: 28 al 29 de septiembre de 2026 (hora de Colombia, UTC−5). Estado a la
 2. **/checkout/.** Con el "sí" de Miguel a C19, una sola escritura con C19 y la quita del `<title>` y la description. Después: caché, verificación y texto plano.
 3. **C22.**
 4. **En espera de terceros:**
-   - C3: visto bueno de Miguel;
    - C8: decisión de Dirección;
    - C23: logo y colores;
    - la línea bajo el botón de pago, que espera los Términos;
@@ -177,6 +188,8 @@ Periodo: 28 al 29 de septiembre de 2026 (hora de Colombia, UTC−5). Estado a la
 ---
 
 ## 7. Observaciones abiertas
+
+- **Site Kit, "Sign in with Google":** carga accounts.google.com antes del consentimiento. Es un detalle menor; queda anotado y no se toca.
 
 - **Descripciones SEO de las páginas legales.** All in One SEO genera las de /cancelaciones/ y /cancelaciones-es/ a partir del contenido de la página, y no son textos cuidados. Las decide Miguel si quiere fijarlas.
 - **Imágenes de pasos que ya no se usan en /proceso/.** Siguen en la biblioteca de medios. No se borran, porque no se borra nada.
