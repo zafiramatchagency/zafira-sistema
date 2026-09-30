@@ -100,7 +100,7 @@ Periodo: 28 al 30 de septiembre de 2026 (hora de Colombia, UTC−5). Estado al 3
 
 | Código | Qué es | Página | Estado |
 |---|---|---|---|
-| C1 | Pie legal nuevo (W19), sin "Términos de Participación" | 12 páginas | ✅ Hecho y verificado en las 13 (en /caballeros/ con el pegado de Miguel del 30-sep) |
+| C1 | Pie legal nuevo (W19), sin "Términos de Participación" | 13 páginas | ✅ Hecho y verificado en las 13 (en /caballeros/ con el pegado de Miguel del 30-sep) |
 | C2 | Cabecera y pie de Astra en el código | Todas | Los oculta el CSS. Miguel lo comprueba; no se tocan los ajustes del tema |
 | C3 | Banner de cookies (WPConsent) | Todo el sitio | ✅ Hecho por Miguel a mano en WPConsent y verificado en vivo por Gisela (30-sep, antes de las 07:37). Ver sección 5 |
 | C4 | Bloque del encuentro de Cartagena (W32) | Home | ✅ Hecho |
@@ -127,9 +127,9 @@ Periodo: 28 al 30 de septiembre de 2026 (hora de Colombia, UTC−5). Estado al 3
 | W35: portada y pasos 01–05 | Home | ✅ Hecho |
 | W36: portada, con fondo liso en lugar de la foto de Unsplash | /about/ | ✅ Hecho |
 | W37 (SEO en All in One SEO, hecho por Miguel) | Home, /about/, /proceso/ | ✅ Revisado: sin "eventos", "experiencias" ni "latinoamericanas" |
-| Quitar `<title>` y description heredados | 12 páginas | ✅ Hecho y verificado (/checkout/ el 30-sep junto con C19; /caballeros/ en el pegado de Miguel) |
+| Quitar `<title>` y description heredados | 13 páginas | ✅ Hecho y verificado (/checkout/ el 30-sep junto con C19; /caballeros/ en el pegado de Miguel) |
 | Nombre interno "The Experience" → "About Zafira"; extracto vaciado | /about/ | ✅ Hecho (la dirección sigue siendo /about/) |
-| `post_content` con texto plano ES/EN | 12 páginas | ✅ Hecho en las 13 (/caballeros/ el 30-sep a las 06:32) |
+| `post_content` con texto plano ES/EN | 13 páginas | ✅ Hecho en las 13 (/caballeros/ el 30-sep a las 06:32) |
 
 ---
 
