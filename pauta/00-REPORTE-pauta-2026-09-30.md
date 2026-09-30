@@ -45,7 +45,7 @@ Supuesto: Zafira aprueba presupuesto, canales y datos **el viernes 2-oct-2026**.
 
 | Escenario | Encuentro | Cierre de solicitudes | Pauta que entra | Comentario |
 |---|---|---|---|---|
-| **A · Recomendado dentro de "oct–nov"** | jueves 19 – domingo 22 de noviembre de 2026 | **viernes 30-oct-2026** (20 días antes) | Newsletters desde ~12-oct (≈3 semanas). Podcasts si alguno sale antes del ~23-oct. **Meta solo si responde antes del ~16-oct** | Ajustado pero posible. Evita la semana de Thanksgiving (jueves 26-nov), cuando los caballeros de EE. UU. no viajan |
+| **A · Recomendado dentro de "oct–nov"** | jueves 19 – domingo 22 de noviembre de 2026 | **jueves 29-oct-2026** (21 días antes) | Newsletters desde ~12-oct (≈3 semanas). Podcasts si alguno sale antes del ~23-oct. **Meta solo si responde antes del ~16-oct** | Ajustado pero posible. Evita la semana de Thanksgiving (jueves 26-nov), cuando los caballeros de EE. UU. no viajan |
 | B · Final de noviembre | 26–29 de noviembre | — | — | **No recomendado:** coincide con Thanksgiving |
 | C · Si Zafira acepta salir de "oct–nov" | primera semana de diciembre (p. ej. 4–6-dic) | **viernes 13-nov-2026** (~21 días antes) | Newsletters + podcasts + **Meta** si responde en ≤30 días (~2-nov) | Deja entrar a Meta con 1–2 semanas de pauta. **Exige cambiar el texto publicado "octubre–noviembre"** en /proceso/, Home, /caballeros/, /about/ y /confirmacion/ |
 | Octubre | — | — | — | **No es viable:** no hay tiempo para pauta, verificación y vuelos |
