@@ -1,7 +1,33 @@
 # 01 · Permiso de anuncios de citas de Meta: borrador de solicitud
 
-Estado: **borrador, no enviado**. Nada se envía sin el "sí" de Miguel y de Zafira.
+Estado: **listo para enviar en cuanto Zafira complete la ficha de la sección 0.** No enviado. Nada se envía sin el "sí" de Miguel y de Zafira.
 Fecha: 30-sep-2026.
+
+
+## 0. Ficha de envío (rellenar y enviar)
+Lo marcado ✅ ya lo tenemos por el diagnóstico de solo lectura del 30-sep. Lo marcado ⬜ lo entrega Zafira.
+
+| Campo | Valor |
+|---|---|
+| ✅ Portfolio comercial (BM) | "Zafira Match Agency" · ID 28082287311365681 |
+| ✅ Cuenta publicitaria para la que se pide | Zafira2026ADS · ID 1097030029602749 (COP, America/Bogota, 0 anuncios) |
+| ✅ Página de Facebook | Zafira Match Agency · ID 1068627986343169 (⬜ vincularla a la cuenta antes de enviar) |
+| ⬜ Instagram | @____ (si existe; vincular a la cuenta) |
+| ✅ Sitio | https://zafiramatchagency.com/caballeros/ · https://zafiramatchagency.com/proceso/ |
+| ✅ País | Estados Unidos · edad 18+ |
+| ⬜ Nombre legal en el BM | ¿"Zafira Limited Edition S.A.S." y negocio **verificado**? Sí / No |
+| ⬜ Quién envía | Nombre y correo del admin con control total del BM |
+| ⬜ Rechazos anteriores | Cuenta de origen de los 3 anuncios de jul–ago (IDs 1965234627514579, 1356521832648837, 1357233529371086) y **texto exacto** de la política citada en cada uno |
+| ⬜ Solicitud previa de permiso de citas | ¿Se pidió antes? Fecha y respuesta |
+| ⬜ Procedimiento IMBRA | Confirmación escrita de que se aplica tal como dice el texto de la sección 4 |
+| ⬜ Términos y Condiciones | ¿Publicados antes del envío? Sí / No (si no, se envía igual, pero es un punto débil) |
+
+**Antes de pulsar "Enviar", comprobar:**
+1. Toda la pauta de Zafira sale de Zafira2026ADS. No se promociona desde la página ni desde otras cuentas mientras se revisa la solicitud.
+2. La página está vinculada a la cuenta.
+3. El texto de la sección 4 es cierto en todo lo que afirma. Si algo no se cumple, se corrige el texto; no se envía así.
+4. Si alguno de los rechazos anteriores citó una política concreta, se añade una línea en la descripción que explique qué cambió, **con la verdad**.
+5. Se guarda una captura de lo enviado y la fecha en `pauta/`.
 
 ## 1. Qué exige Meta (fuentes oficiales)
 - Los anuncios de citas y matchmaking, en línea o presenciales, necesitan **permiso previo por escrito**, que se pide con un formulario. Meta dice que su equipo intenta responder **en un plazo de 30 días**. ([Sobre la política de citas de Meta](https://www.facebook.com/business/help/765622867361201))

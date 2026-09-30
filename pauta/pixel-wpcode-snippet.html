@@ -1,0 +1,30 @@
+<!-- Zafira · Meta Pixel (web) · WPConsent lo retiene en "Marketing" hasta que la persona acepta · sin datos personales -->
+<script>
+(function(){
+  var p = location.pathname.replace(/\/+$/,'/') ;
+  /* Páginas de candidatas y legales en español: sin píxel */
+  var fuera = ['/damas/','/registro-candidata/','/privacidad-es/','/terminos-es/','/cancelaciones-es/'];
+  if (fuera.indexOf(p) !== -1) return;
+
+  !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+  n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+  document,'script','https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init','PIXEL_ID');          /* ← ID del píxel "Zafira · Web" que crea Zafira en su BM */
+  fbq('track','PageView');
+
+  /* Solo en /caballeros/: ventana del caballero (#mfondo). La de candidatas (#mfondo-c) no se mide. */
+  if (p !== '/caballeros/') return;
+  function listo(fn){ if(document.readyState!=='loading') fn(); else document.addEventListener('DOMContentLoaded',fn); }
+  listo(function(){
+    var m = document.getElementById('mfondo'); if(!m) return;
+    var vio=false, lead=false;
+    var paso4 = m.querySelector('.mpaso[data-paso="4"]');
+    new MutationObserver(function(){
+      if(!vio && !m.hidden){ vio=true; fbq('track','ViewContent',{content_name:'solicitud_caballero'}); }
+      if(!lead && paso4 && paso4.classList.contains('on')){ lead=true; fbq('track','Lead',{content_name:'solicitud_caballero'}); }
+    }).observe(m,{attributes:true,subtree:true,attributeFilter:['hidden','class']});
+  });
+})();
+</script>

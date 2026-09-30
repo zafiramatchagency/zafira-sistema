@@ -11,6 +11,8 @@ Regla de esta tanda: **nada se activa ni se envía.** Todo queda preparado y en 
 | 4 | `04-N06-hoja-leads-formato.md` + `N06-encabezados.csv` | Formato listo; la hoja se crea al nombrar responsable |
 | 5 | `05-canales-pagos-sin-meta-google.md` | Lista y recomendación listas; no se contactó a nadie |
 | 6 | `06-diagnostico-cuenta-meta-2026-09-30.md` | Diagnóstico de solo lectura de la cuenta de Meta |
+| 7 | `07-pixel-antes-despues.md` + `pixel-wpcode-snippet.html` | Píxel: antes → después, probado en local; espera el ID del píxel (Zafira) y el "sí" de Miguel |
+| 8 | `08-newsletters-lista-corta.md` | 7 newsletters + 3 descartadas; nadie contactado |
 
 ## Lo más importante en cinco líneas
 1. **Meta sí permite matchmaking, con permiso previo, pero tarda hasta 30 días** y veta lo "transaccional". El modelo de Zafira (EE. UU. → Colombia, él paga) corre el riesgo de leerse así. La solicitud tiene que ser impecable y verdadera.
